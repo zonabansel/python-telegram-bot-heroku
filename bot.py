@@ -53,7 +53,7 @@ def main():
         listen="0.0.0.0",
         port=int(PORT),
         url_path=TOKEN,
-        webhook_url='https://api.telegram.com/bot' + TOKEN
+        webhook_url='https://api.telegram.org/bot' + TOKEN
     )
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
